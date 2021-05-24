@@ -1,6 +1,6 @@
 .intro {
   max-width: 984px;
-  margin: 114px auto 0 auto;
+  margin: 92px auto 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -15,6 +15,7 @@
   .intro {
     margin-left: 24px;
     margin-right: 24px;
+    margin-top: 88px;
   }
 }
 
@@ -22,5 +23,6 @@
   .intro {
     margin-left: 16px;
     margin-right: 16px;
+    margin-top: 64px;
   }
 }
