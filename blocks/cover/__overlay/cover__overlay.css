@@ -32,8 +32,6 @@
 
 @media screen and (max-width: 1200px) {
   .cover__overlay {
-    margin-left: 0;
-    margin-right: 0;
     width: 100vw;
     min-height: 640px;
   }
@@ -41,14 +39,18 @@
 
 @media screen and (max-width: 790px) {
   .cover__overlay {
-   margin-top: 90px;
    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 570px) {
   .cover__overlay {
-    margin-top: 66px;
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .cover__overlay {
     min-height: 200px;
   }
 }
