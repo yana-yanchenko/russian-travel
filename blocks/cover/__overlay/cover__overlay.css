@@ -2,10 +2,11 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-position: center;
   background-size: cover;
-  width: 92.5%;
-  height: 63vw;
+  width: 100%;
+  min-height: 740px;
   position: relative;
-  margin: 92px 48px 0 48px;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,17 +35,20 @@
     margin-left: 0;
     margin-right: 0;
     width: 100vw;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 790px) {
   .cover__overlay {
    margin-top: 90px;
+   min-height: 480px;
   }
 }
 
 @media screen and (max-width: 570px) {
   .cover__overlay {
     margin-top: 66px;
+    min-height: 200px;
   }
 }
